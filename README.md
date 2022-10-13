@@ -11,6 +11,13 @@ These artificial anomalies used during training allow the detection of real, yet
 With our novel generative approach, we transform the unsupervised task of anomaly detection to a supervised one, which is more tractable by machine learning and especially deep learning methods.
 DA3D surpasses the performance of state-of-the-art anomaly detection methods in a purely data-driven way, where no domain knowledge is required.
 
+### Citation
+Double-Adversarial Activation Anomaly Detection was published at IJCNN 2022 [13].
+If you find our work useful, please cite the paper:
+```
+J. -P. Schulze, P. Sperl and K. Böttinger, "Double-Adversarial Activation Anomaly Detection: Adversarial Autoencoders are Anomaly Generators," 2022 International Joint Conference on Neural Networks (IJCNN), 2022, pp. 1-8, doi: 10.1109/IJCNN55064.2022.9892896.
+```
+
 ### Dependencies
 We used ``docker`` during the development.
 You can recreate our environment by:  
@@ -90,4 +97,5 @@ DA3D
 * [10] https://github.com/chychen/tf2-ganomaly
 * [11] https://github.com/phuccuongngo99/Fence_GAN
 * [12] https://github.com/GuansongPang/deep-outlier-detection
+* [13] https://ieeexplore.ieee.org/abstract/document/9892896
 
